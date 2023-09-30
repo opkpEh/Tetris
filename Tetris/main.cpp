@@ -13,6 +13,8 @@ int main()
 
 	while (!WindowShouldClose())
 	{
+		game.HandelInput();
+
 		BeginDrawing();
 		ClearBackground(darkBlue);
 		DrawFPS(10,10);

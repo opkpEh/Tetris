@@ -9,6 +9,10 @@ public:
 	Block GetRandomBlock();
 	std::vector<Block> GetAllBlocks();
 	void Draw();
+	void HandelInput();
+	void MoveBlockLeft();
+	void MoveBlockRight();
+	void MoveBlockDown();
 	Grid grid;
 
 private:
