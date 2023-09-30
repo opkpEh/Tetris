@@ -44,6 +44,15 @@ bool Grid::IsCellOutside(int row, int column)
 	return true;
 }
 
+bool Grid::IsCellEmpty(int row, int column)
+{
+	if (grid[row][column] == 0)
+	{
+		return true;
+	}
+	return false;
+}
+
 void Grid::Draw()
 {
 	for (int row = 0; row < numRows; row++)

@@ -16,9 +16,12 @@ public:
 	Grid grid;
 
 private:
+	void LockBlock();
 	void RotateBlock();
 	bool IsBlockOutside();
+	bool BlockFits();
 	std::vector<Block> blocks;
 	Block currentBlock;
 	Block nextBlock;
+
 };
